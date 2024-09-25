@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GerenciamentoDeEstacionamento/1.0.0": {
+        "dependencies": {
+          "GerenciamentoDeEstacionamento.Common": "1.0.0"
+        },
+        "runtime": {
+          "GerenciamentoDeEstacionamento.dll": {}
+        }
+      },
+      "GerenciamentoDeEstacionamento.Common/1.0.0": {
+        "runtime": {
+          "GerenciamentoDeEstacionamento.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GerenciamentoDeEstacionamento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GerenciamentoDeEstacionamento.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
