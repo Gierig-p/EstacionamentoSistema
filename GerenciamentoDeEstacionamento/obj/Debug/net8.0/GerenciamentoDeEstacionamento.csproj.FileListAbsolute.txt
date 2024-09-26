@@ -16,3 +16,4 @@ E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacioname
 E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacionamento\GerenciamentoDeEstacionamento\obj\Debug\net8.0\GerenciamentoDeEstacionamento.pdb
 E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacionamento\GerenciamentoDeEstacionamento\obj\Debug\net8.0\GerenciamentoDeEstacionamento.genruntimeconfig.cache
 E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacionamento\GerenciamentoDeEstacionamento\obj\Debug\net8.0\ref\GerenciamentoDeEstacionamento.dll
+E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacionamento\GerenciamentoDeEstacionamento\obj\Debug\net8.0\GerenciamentoDeEstacionamento.sourcelink.json

@@ -9,3 +9,4 @@ E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacioname
 E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacionamento\GerenciamentoDeEstacionamento.Common\obj\Debug\net8.0\refint\GerenciamentoDeEstacionamento.Common.dll
 E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacionamento\GerenciamentoDeEstacionamento.Common\obj\Debug\net8.0\GerenciamentoDeEstacionamento.Common.pdb
 E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacionamento\GerenciamentoDeEstacionamento.Common\obj\Debug\net8.0\ref\GerenciamentoDeEstacionamento.Common.dll
+E:\Área de Trabalho\ㅤㅤㅤㅤㅤㅤㅤ\codigos-C#\GerenciamentoDeEstacionamento\GerenciamentoDeEstacionamento.Common\obj\Debug\net8.0\GerenciamentoDeEstacionamento.Common.sourcelink.json

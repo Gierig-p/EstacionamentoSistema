@@ -34,12 +34,38 @@ class Program
                         break;
                     
                     case "2":
-                        Console.Write("Digite a placa do carro: ");
-                        string placa = Console.ReadLine();
-                        Console.Write("Digite o modelo do carro: ");
-                        string modelo = Console.ReadLine();
-                        Console.Write("Digite o título da vaga onde deseja estacionar: ");
-                        string tituloVaga = Console.ReadLine();
+                        string placa;
+                        do
+                        {
+                            Console.Write("Digite a placa do carro: ");
+                            placa = Console.ReadLine();
+                            if (string.IsNullOrWhiteSpace(placa))
+                            {
+                                Console.WriteLine("Placa não pode estar vazia. Por favor, insira uma placa válida.");
+                            }
+                        } while(string.IsNullOrWhiteSpace(placa));
+
+                        string modelo;
+                        do
+                        {
+                            Console.Write("Digite o modelo do carro: ");
+                            modelo = Console.ReadLine();
+                            if (string.IsNullOrWhiteSpace(modelo))
+                            {
+                                Console.WriteLine("Modelo não pode estar vazio. Por favor, insira um modelo válido.");
+                            }
+                        } while(string.IsNullOrWhiteSpace(modelo));
+
+                        string tituloVaga;
+                        do
+                        {
+                            Console.Write("Digite o título da vaga onde deseja estacionar: ");
+                            tituloVaga = Console.ReadLine();
+                            if (string.IsNullOrWhiteSpace(tituloVaga))
+                            {
+                                Console.WriteLine("Título da vaga não pode estar vazio. Por favor, insira um título válido.");
+                            }
+                        } while (string.IsNullOrWhiteSpace(tituloVaga));
 
                         Carro carro = new Carro(placa, modelo);
                         vagas.EstacionarCarro(tituloVaga, carro);
