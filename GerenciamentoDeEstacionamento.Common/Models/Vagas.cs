@@ -33,8 +33,17 @@ namespace GerenciamentoDeEstacionamento.Common.Models
 
         public void VeficarDisponibilidade()
         {
+            string resposta;
+            do
+            {
             Console.WriteLine("Você se encixa como PCD? ('S' para Sim ou 'N' para Não): ");
-            string resposta = Console.ReadLine().ToUpper();
+            resposta = Console.ReadLine().ToUpper();
+
+            if (string.IsNullOrWhiteSpace(resposta) || (resposta != "S" && resposta != "N"))
+            {
+                Console.WriteLine("Entrada inválida. Por favor, insira 'S' para Sim ou 'N' para Não.");
+            }
+            } while (string.IsNullOrWhiteSpace(resposta) || (resposta != "S" && resposta != "N"));
 
             bool clientePCD = resposta == "S";
 
